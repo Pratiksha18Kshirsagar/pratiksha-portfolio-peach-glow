@@ -9,7 +9,7 @@ import Education from '@/components/Education';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
-const Index = () => {
+const Index: React.FC = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
