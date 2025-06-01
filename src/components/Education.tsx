@@ -8,8 +8,8 @@ const Education: React.FC = () => {
       id: 1,
       degree: "B.E. in Computer Science and Engineering",
       institution: "Basavakayan Engineering College, Basavakalyan, Bidar, Karnataka",
-      year: "2024",
-      score: "CGPA - 8.9"
+      year: "2025",
+      score: "CGPA - 9.05"
     },
     {
       id: 2,

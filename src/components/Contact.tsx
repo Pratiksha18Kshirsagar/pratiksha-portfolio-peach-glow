@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
             
             <div className="flex space-x-4 mb-8">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/Pratiksha18Kshirsagar" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-peach-light p-3 rounded-full hover:bg-peach transition-colors duration-300"
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/" 
+                href="https://www.linkedin.com/in/pratiksha-kshirsagar-9751ab252/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-peach-light p-3 rounded-full hover:bg-peach transition-colors duration-300"
@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="mailto:pratiksha@example.com" 
+                href="mailto:kshirsagarpratiksha1820@gmail.com" 
                 className="bg-peach-light p-3 rounded-full hover:bg-peach transition-colors duration-300"
               >
                 <Mail size={24} />
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
             
             <div>
               <p className="mb-2 flex items-center">
-                <Mail size={16} className="mr-2" /> pratiksha@example.com
+                <Mail size={16} className="mr-2" /> kshirsagarpratiksha1820@gmail.com
               </p>
             </div>
           </div>

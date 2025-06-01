@@ -8,30 +8,30 @@ const Projects: React.FC = () => {
     {
       title: "Wanderlust - Airbnb Clone",
       description: "A full-stack Airbnb clone with booking features, user authentication, and property listings. Built with React, Node.js, Express, and MongoDB.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-      github: "#",
-      demo: "#"
+      image: "https://i.ibb.co/Q37CT63F/Screenshot-2025-04-30-011609.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/Apna-College-web/tree/main/Air-BnB",
+      demo: "https://airbnb-jz4y.onrender.com/listings"
     },
     {
       title: "Spotify Clone",
-      description: "A music streaming application that mimics Spotify's core features including playlists, music player, and user profiles. Uses React for frontend and Node.js for backend.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
+      image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/SPOTIFY-CLONE",
       demo: "#"
     },
     {
       title: "Task Manager",
-      description: "A comprehensive task management application with features like task categories, due dates, priorities, and progress tracking. Built on the MERN stack.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      github: "#",
+      description: "A feature-rich task management application with task categorization, priority levels, and deadline tracking.",
+      image: "https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/Reactjs/tree/main/To-do-list",
       demo: "#"
     },
     {
       title: "Netflix Clone",
-      description: "A Netflix-inspired streaming platform with movie browsing, categorization, and user authentication. Utilizes React, Express, and external movie API.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80",
-      github: "#",
-      demo: "#"
+      description: "Video streaming platform with content categorization, user profiles, and recommendation engine.",
+      image: "https://i.ibb.co/DhCg0Rj/Screenshot-2025-04-30-005452.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/Sigma-web-dev/tree/main/Projects!!/Netflix-using-html-css",
+      demo: "https://girishcpatil.github.io/netflix/"
     }
   ];
 
@@ -61,10 +61,10 @@ const Projects: React.FC = () => {
                 
                 <div className="flex space-x-3">
                   <Button variant="outline" size="sm" className="border-peach text-foreground hover:bg-peach-light">
-                    <Github className="mr-2 h-4 w-4" /> Code
+                    <Github className="mr-2 h-4 w-4" /> <a href={project.github}>Code</a>
                   </Button>
                   <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Demo
+                    <ExternalLink className="mr-2 h-4 w-4" /> <a href={project.demo}>Demo</a>
                   </Button>
                 </div>
               </div>

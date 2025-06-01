@@ -18,10 +18,10 @@ const Hero: React.FC = () => {
         
         <div className="flex flex-wrap gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <Button className="bg-peach hover:bg-peach-dark text-foreground">
-            View Resume
+            <a href="https://drive.google.com/file/d/1Y2y8dXo5TZkV92ZDzqT3Pr-DdmUI7K5o/view?usp=sharing">View Resume</a> 
           </Button>
           <Button variant="outline" className="border-peach text-foreground hover:bg-peach-light">
-            <Github className="mr-2 h-4 w-4" /> GitHub
+            <Github className="mr-2 h-4 w-4" /> <a href="https://github.com/Pratiksha18Kshirsagar">GitHub</a>
           </Button>
         </div>
         

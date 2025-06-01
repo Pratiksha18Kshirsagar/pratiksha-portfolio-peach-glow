@@ -8,12 +8,12 @@ const Footer: React.FC = () => {
       <div className="section-container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-center md:text-left">© 2024 Pratiksha Kshirsagar. All rights reserved.</p>
+            <p className="text-center md:text-left">© 2025 Pratiksha Kshirsagar. All rights reserved.</p>
           </div>
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/" 
+              href="https://github.com/Pratiksha18Kshirsagar" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-peach transition-colors"
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/" 
+              href="https://www.linkedin.com/in/pratiksha-kshirsagar-9751ab252/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-peach transition-colors"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="mailto:pratiksha@example.com" 
+              href="mailto:kshirsagarpratiksha1820@gmail.com" 
               className="text-gray-600 hover:text-peach transition-colors"
             >
               <Mail size={20} />
