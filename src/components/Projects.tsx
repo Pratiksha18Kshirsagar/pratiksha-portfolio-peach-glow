@@ -17,14 +17,14 @@ const Projects: React.FC = () => {
       description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
       image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
       github: "https://github.com/Pratiksha18Kshirsagar/SPOTIFY-CLONE",
-      demo: "#"
+      
     },
     {
       title: "Task Manager",
       description: "A feature-rich task management application with task categorization, priority levels, and deadline tracking.",
       image: "https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Reactjs/tree/main/To-do-list",
-      demo: "#"
+      
     },
     {
       title: "Netflix Clone",
