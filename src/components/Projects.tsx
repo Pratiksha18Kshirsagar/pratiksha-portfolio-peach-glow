@@ -73,13 +73,13 @@ const Projects: React.FC = () => {
                 <p className="text-muted-foreground mb-4">{project.description}</p>
 
                 <div className="flex space-x-3">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
-                    <Button variant="outline" size="sm" className="border-peach text-foreground hover:bg-peach-light w-full">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="border-peach text-foreground hover:bg-peach-light">
                       <Github className="mr-2 h-4 w-4" /> Code
                     </Button>
                   </a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="w-full">
-                    <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground w-full">
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
                       <ExternalLink className="mr-2 h-4 w-4" /> Demo
                     </Button>
                   </a>
