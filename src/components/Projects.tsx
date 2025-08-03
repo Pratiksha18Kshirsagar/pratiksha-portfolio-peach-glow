@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                       <Github className="mr-2 h-4 w-4" /> Code
                     </Button>
                   </a>
-                  {project.demo !== "#" && (
+                  {project.demo != "#" && (
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
                         <ExternalLink className="mr-2 h-4 w-4" /> Demo
