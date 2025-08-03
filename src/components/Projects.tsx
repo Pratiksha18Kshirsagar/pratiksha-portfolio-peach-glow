@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Github, ExternalLink } from 'lucide-react';
@@ -14,25 +13,24 @@ const Projects: React.FC = () => {
     },
     {
       title: "GreenCart-Ecommerce Website",
-      description: "GreenCart is a grocery web app with cart, online payment via Stripe, and real-time order updates using webhooks.Built with Node.js, React, Express, and MongoDB.",
+      description: "GreenCart is a grocery web app with cart, online payment via Stripe, and real-time order updates using webhooks. Built with Node.js, React, Express, and MongoDB.",
       image: "https://i.ibb.co/Cs6khjCB/Screenshot-2025-08-03-120641.png",
       github: "https://github.com/Pratiksha18Kshirsagar/GreenCart",
       demo: "https://green-cart-nu-eight.vercel.app/"
     },
     {
       title: "Streamify-Video-chat",
-      description: "Streamify is a real-time video chat app with friend requests, chat, and calling features using Stream API, TanStack Query, and protected user routes.Built with Node.js, React, Express, and MongoDB.",
+      description: "Streamify is a real-time video chat app with friend requests, chat, and calling features using Stream API, TanStack Query, and protected user routes. Built with Node.js, React, Express, and MongoDB.",
       image: "https://i.ibb.co/v6zpzV6n/Screenshot-2025-08-03-123535.png",
       github: "https://github.com/Pratiksha18Kshirsagar/streamify-video-calls-master",
       demo: "https://streamify-video-calls-master-1-x3a8.onrender.com/login"
     },
-
     {
       title: "Task Manager",
       description: "A feature-rich task management application with task categorization, priority levels, and deadline tracking.",
       image: "https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Reactjs/tree/main/To-do-list",
-      demo:"#"
+      demo: "#"
     },
     {
       title: "Netflix Clone",
@@ -46,7 +44,7 @@ const Projects: React.FC = () => {
       description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
       image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
       github: "https://github.com/Pratiksha18Kshirsagar/SPOTIFY-CLONE",
-       demo:"#"
+      demo: "#"
     },
   ];
 
@@ -75,12 +73,16 @@ const Projects: React.FC = () => {
                 <p className="text-muted-foreground mb-4">{project.description}</p>
 
                 <div className="flex space-x-3">
-                  <Button variant="outline" size="sm" className="border-peach text-foreground hover:bg-peach-light">
-                    <Github className="mr-2 h-4 w-4" /> <a href={project.github}>Code</a>
-                  </Button>
-                  <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
-                    <ExternalLink className="mr-2 h-4 w-4" /> <a href={project.demo}>Demo</a>
-                  </Button>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
+                    <Button variant="outline" size="sm" className="border-peach text-foreground hover:bg-peach-light w-full">
+                      <Github className="mr-2 h-4 w-4" /> Code
+                    </Button>
+                  </a>
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="w-full">
+                    <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground w-full">
+                      <ExternalLink className="mr-2 h-4 w-4" /> Demo
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
