@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "Task Manager",
-      description: "A feature-rich task management application with task categorization, priority levels, and deadline tracking.",
+      description: "A lightweight task management app built with React, featuring basic task operations and smooth UI interactions using hooks like useState, useEffect, and useRef. No backend—entirely frontend with local storage support.",
       image: "https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Reactjs/tree/main/To-do-list",
       demo: "#"
@@ -78,11 +78,13 @@ const Projects: React.FC = () => {
                       <Github className="mr-2 h-4 w-4" /> Code
                     </Button>
                   </a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
-                      <ExternalLink className="mr-2 h-4 w-4" /> Demo
-                    </Button>
-                  </a>
+                  {project.demo !== "#" && (
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <Button size="sm" className="bg-peach hover:bg-peach-dark text-foreground">
+                        <ExternalLink className="mr-2 h-4 w-4" /> Demo
+                      </Button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
