@@ -6,7 +6,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Wanderlust - Airbnb Clone",
+      title: "Wanderlust - Airbnb ",
       description: "A full-stack Airbnb clone with booking features, user authentication, and property listings. Built with Node.js, Ejs, Express, and MongoDB.",
       image: "https://i.ibb.co/Q37CT63F/Screenshot-2025-04-30-011609.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Apna-College-web/tree/main/Air-BnB",
@@ -22,23 +22,17 @@ const Projects: React.FC = () => {
     {
       title: "Streamify-Video-chat",
       description: "Streamify is a real-time video chat app with friend requests, chat, and calling features using Stream API, TanStack Query, and protected user routes.Built with Node.js, React, Express, and MongoDB.",
-      image: "https://i.ibb.co/Q37CT63F/Screenshot-2025-04-30-011609.png",
+      image: "https://i.ibb.co/v6zpzV6n/Screenshot-2025-08-03-123535.png",
       github: "https://github.com/Pratiksha18Kshirsagar/streamify-video-calls-master",
-      demo: "https://airbnb-jz4y.onrender.com/listings"
+      demo: "https://streamify-video-calls-master-1-x3a8.onrender.com/login"
     },
-    {
-      title: "Spotify Clone",
-      description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
-      image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
-      github: "https://github.com/Pratiksha18Kshirsagar/SPOTIFY-CLONE",
 
-    },
     {
       title: "Task Manager",
       description: "A feature-rich task management application with task categorization, priority levels, and deadline tracking.",
       image: "https://i.ibb.co/chXD6jJt/Screenshot-2025-05-01-124757.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Reactjs/tree/main/To-do-list",
-
+      demo:"#"
     },
     {
       title: "Netflix Clone",
@@ -46,7 +40,14 @@ const Projects: React.FC = () => {
       image: "https://i.ibb.co/DhCg0Rj/Screenshot-2025-04-30-005452.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Sigma-web-dev/tree/main/Projects!!/Netflix-using-html-css",
       demo: "https://girishcpatil.github.io/netflix/"
-    }
+    },
+    {
+      title: "Spotify",
+      description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
+      image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/SPOTIFY-CLONE",
+       demo:"#"
+    },
   ];
 
   return (

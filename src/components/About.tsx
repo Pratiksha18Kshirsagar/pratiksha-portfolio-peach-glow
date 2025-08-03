@@ -39,8 +39,7 @@ const About: React.FC = () => {
           <div className="order-1 md:order-2 flex justify-center animate-fade-in">
             <div className="h-64 w-64 md:h-80 md:w-80 rounded-full overflow-hidden border-4 border-peach shadow-lg">
               <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQEAhDYCXf2MTA/profile-displayphoto-shrink_400_400/B56Zcl5KRmHUAk-/0/1748687432395?e=1753920000&v=beta&t=SGO2KQT2lYtmgdvqJXbIrJeN3NbLEhycmpzLcKYy1WA"
-                alt="Pratiksha Kshirsagar"
+                src="https://i.ibb.co/GQ0hdGJ9/Pratiksha-img.jpg" 
                 className="w-full h-full object-cover"
               />
             </div>
