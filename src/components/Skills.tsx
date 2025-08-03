@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
     {
       title: "Tools & Others",
       icon: <Code size={24} />,
-      skills: ["Git", "VS Code", "Postman", "REST APIs" ,"Netlify" , "Render"]
+      skills: ["Git", "VS Code", "Postman", "REST APIs" ,"Netlify" , "Render" , "Vercel"]
     }
   ];
 
