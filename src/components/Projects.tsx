@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
       description: "Video streaming platform with content categorization, user profiles, and recommendation engine.",
       image: "https://i.ibb.co/DhCg0Rj/Screenshot-2025-04-30-005452.png",
       github: "https://github.com/Pratiksha18Kshirsagar/Sigma-web-dev/tree/main/Projects!!/Netflix-using-html-css",
-      demo: "https://girishcpatil.github.io/netflix/"
+      demo: "#"
     },
     {
       title: "Spotify",
