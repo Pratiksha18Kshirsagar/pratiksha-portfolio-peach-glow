@@ -13,6 +13,20 @@ const Projects: React.FC = () => {
       demo: "https://airbnb-jz4y.onrender.com/listings"
     },
     {
+      title: "GreenCart-Ecommerce Website",
+      description: "GreenCart is a full-stack grocery web app where users can browse products, add them to cart, and place orders online. It uses Stripe for secure payments and webhooks to verify and update order status in real-time.",
+      image: "https://ibb.co/ffNYp5P",
+      github: "https://github.com/Pratiksha18Kshirsagar/GreenCart",
+      demo: "https://green-cart-nu-eight.vercel.app/"
+    },
+    {
+      title: "Streamify-Video-chat",
+      description: "A full-stack video-chat application, user authentication, and property listings. Built with React, Node.js, Express, and MongoDB.",
+      image: "https://i.ibb.co/Q37CT63F/Screenshot-2025-04-30-011609.png",
+      github: "https://github.com/Pratiksha18Kshirsagar/streamify-video-calls-master",
+      demo: "https://airbnb-jz4y.onrender.com/listings"
+    },
+    {
       title: "Spotify Clone",
       description: "Music streaming application with playlist creation, artist profiles, and song recommendations.",
       image: "https://i.ibb.co/W4Bk92c5/Screenshot-2024-07-24-214306.png",
